@@ -6,4 +6,6 @@ Beginner coder
 
 Interests - Coding, learning Mandarin, 
 
-Thiss is my third day of coding
+This is my third day of coding
+
+hello
