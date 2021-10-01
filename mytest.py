@@ -30,3 +30,4 @@ number2 = float(input("Please enter the second number: "))
 answer = number1 + number2
 
 print(number1, "+", number2, "=", answer)
+# This program is adding two numbers and showing thr sums
