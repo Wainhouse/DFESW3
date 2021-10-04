@@ -29,22 +29,29 @@
 
 # Write a while loop which asks for the names of 5 people, and for each person prints their name followed by the text "is awesome!"
 
-from typing import Text
+# from typing import Text
 
-# fail
-count = 0
-name = str(input("What is your name?"))
+# # fail
+# count = 0
+# name = str(input("What is your name?"))
 
-list_of_name = [name]
+# list_of_name = [name]
 
-while count < 5:
-    print(name, "is awesome!")
-    if name == name:
+# while count < 5:
+#     print(name, "is awesome!")
+#     if name == name:
 
-        name2 = name.replace(input("what is your name?"))
-    print(name2 + "is awesome!")
-    # if name == name:
-    #     str.replace(input("What is your name?"))
-    #     print(name, "is awesome!")
+#         name2 = name.replace(input("what is your name?"))
+#     print(name2 + "is awesome!")
+#     # if name == name:
+#     #     str.replace(input("What is your name?"))
+#     #     print(name, "is awesome!")
 
-    count += 1
+#     count += 1
+
+input = str(input("Insert 9 number?"))
+
+strlen = len(input)
+
+slicedString = input[strlen::-1]
+print(slicedString)
