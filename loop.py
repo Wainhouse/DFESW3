@@ -49,9 +49,12 @@
 
 #     count += 1
 
-input = str(input("Insert 9 number?"))
+input = str(input("Insert a word?"))
 
 strlen = len(input)
 
 slicedString = input[strlen::-1]
 print(slicedString)
+
+if slicedString == input[strlen::-1]:
+    print("You are a palindrome")
