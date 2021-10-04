@@ -49,12 +49,29 @@
 
 #     count += 1
 
+from typing import Counter
+
+
 input = str(input("Insert a word?"))
 
 strlen = len(input)
 
-slicedString = input[strlen::-1]
-print(slicedString)
 
-if slicedString == input[strlen::-1]:
-    print("You are a palindrome")
+slcStr = input[strlen::-1]
+print(slcStr)
+
+for i in range(0, strlen):
+    strlen += 1
+    slcStr -= 1
+    if strlen[strlen] == slcStr[slcStr]:
+        print("You are a palindrome")
+
+    else:
+        print("You are not a palindrome")
+        break
+
+# if slicedString == input[strlen::-1]:
+
+#     print("You are a palindrome")
+# else:
+#     print("You are not a palindrome")
