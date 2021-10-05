@@ -1,4 +1,4 @@
-# Write a Python function to find the Max of three numbers.
+# 1) Write a Python function to find the Max of three numbers.
 
 # def max_of_two(x, y):
 #     if x > y:
@@ -12,7 +12,7 @@
 
 # print(max_of_three(-5, 4, 8))
 
-# Write a Python function to sum all the numbers in a list.
+# 2)Write a Python function to sum all the numbers in a list.
 
 # def sum_all(nums):
 #     total = 0
@@ -23,7 +23,7 @@
 
 # print(sum((4, 6, 399, 4, 3)))
 
-# Write a Python function to multiply all the numbers in a list.
+# 3) Write a Python function to multiply all the numbers in a list.
 
 # def multi_all(nums):
 #     total = 1
@@ -34,13 +34,27 @@
 
 # print(multi_all((2, 3)))
 
-# Write a Python program to reverse a string.
+# 4) Write a Python program to reverse a string.
 
 # ample String : "1234abcd"
 
-def reverse(string):
-    for i in string:
-        return string[::-1]
+# def reverse(string):
+#     for i in string:
+#         return string[::-1]
 
 
-print(reverse("Luke"))
+# print(reverse("Luke"))
+
+# 5 Write a Python function to calculate the factorial of a number (a non-negative integer). The function accepts the number as an argument.
+
+
+# 6 Write a Python function to check whether a number falls in a given range.
+
+def rang(num, x, y):
+    if num in range(x, y):
+        return("yes")
+    else:
+        return("no")
+
+
+print(rang(200, 0, 100))
