@@ -65,23 +65,41 @@
 # No. of Upper case characters : 3
 # No. of Lower case Characters : 12
 
-def count_up(word):
-    countUp = 0
-    for i in word:
-        if i.isupper():
-            countUp += 1
-    return countUp
+# def count_up(word):
+#     countUp = 0
+#     for i in word:
+#         if i.isupper():
+#             countUp += 1
+#     return countUp
 
 
-def count_low(word):
-    countLow = 0
-    for i in word:
-        if i.islower():
-            countLow += 1
-    return countLow
+# def count_low(word):
+#     countLow = 0
+#     for i in word:
+#         if i.islower():
+#             countLow += 1
+#     return countLow
 
 
-countUp = count_up("I am A BanANa")
-countLow = count_low("I am A BanANa")
+# countUp = count_up("I am A BanANa")
+# countLow = count_low("I am A BanANa")
 
-print(countLow)
+# print("I am A BanANa")
+# print("No. of Upper case characters :", countUp)
+# print("No. of Upper case characters :", countUp)
+
+
+# 8) Write a Python function that takes a list and returns a new list with unique elements of the first list
+
+# def uni_lst(lst):
+#     i = []
+#     for a in lst:
+#         if a not in i:
+#             i.append(a)
+#     return i
+
+
+# print(uni_lst([45, 46, 34, 45, 23, 56, 34, 23, 45]))
+
+# 9) ite a Python function that takes a number as a parameter and check the number is prime or not. Go to the editor
+# Note : A prime number (or a prime) is a natural number greater than 1 and that has no positive divisors other than 1 and itself.
