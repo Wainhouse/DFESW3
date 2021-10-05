@@ -50,11 +50,38 @@
 
 # 6 Write a Python function to check whether a number falls in a given range.
 
-def rang(num, x, y):
-    if num in range(x, y):
-        return("yes")
-    else:
-        return("no")
+# def rang(num, x, y):
+#     if num in range(x, y):
+#         return("yes")
+#     else:
+#         return("no")
 
 
-print(rang(200, 0, 100))
+# print(rang(200, 0, 100))
+
+# 7 Write a Python function that accepts a string and calculate the number of upper case letters and lower case letters.
+# Sample String : 'The quick Brow Fox'
+# Expected Output :
+# No. of Upper case characters : 3
+# No. of Lower case Characters : 12
+
+def count_up(word):
+    countUp = 0
+    for i in word:
+        if i.isupper():
+            countUp += 1
+    return countUp
+
+
+def count_low(word):
+    countLow = 0
+    for i in word:
+        if i.islower():
+            countLow += 1
+    return countLow
+
+
+countUp = count_up("I am A BanANa")
+countLow = count_low("I am A BanANa")
+
+print(countLow)
