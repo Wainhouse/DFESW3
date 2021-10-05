@@ -25,11 +25,22 @@
 
 # Write a Python function to multiply all the numbers in a list.
 
-def multi_all(nums):
-    total = 1
-    for i in nums:
-        total *= i
-    return total
+# def multi_all(nums):
+#     total = 1
+#     for i in nums:
+#         total *= i
+#     return total
 
 
-print(multi_all((2, 3)))
+# print(multi_all((2, 3)))
+
+# Write a Python program to reverse a string.
+
+# ample String : "1234abcd"
+
+def reverse(string):
+    for i in string:
+        return string[::-1]
+
+
+print(reverse("Luke"))
