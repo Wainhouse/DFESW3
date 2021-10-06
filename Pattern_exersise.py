@@ -1,3 +1,5 @@
+import pdb
+
 # 4. Write a Python program to construct the following pattern, using a nested for loop.
 
 # *
@@ -17,6 +19,8 @@ for i in range(digit):
     for x in range(i):
         print('* ', end="")
     print('')
+
+pdb.set_trace()
 
 for i in range(digit, 0, -1):
     for x in range(i):
